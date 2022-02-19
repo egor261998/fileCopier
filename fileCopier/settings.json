@@ -1,0 +1,35 @@
+{
+  "source": {
+    "IsCopy": true,
+    "IsOverrit": true,
+    "IsPaste": true,
+    "directory": {
+      "path": "g:\\FirstStart\\"
+    }
+  },
+  "recipients": [
+    {
+      "IsCopy": true,
+      "IsOverrit": true,
+      "IsPaste": true,
+      "network": {
+        "ip": "127.0.0.1",
+        "port": 1337
+      }
+    },
+    {
+      "IsCopy": true,
+      "IsOverrit": true,
+      "IsPaste": true,
+      "directory": {
+        "path": "C:\\test\\recipient"
+      }
+    }
+  ],
+  "requests": [
+    {
+      "type": "copy",
+      "path": "C:\\test\\recipient"
+    }
+  ]
+}
